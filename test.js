@@ -39,6 +39,11 @@ test('multiple keys', t => {
   t.end()
 })
 
+test('duplicate keys', t => {
+  t.deepEqual(parseEnvString('a=1 b=2 b=3'), { a: '1', b: '3' })
+  t.end()
+})
+
 test('invalid key first letter', t => {
   t.throws(() => parseEnvString('1a=bar'))
   t.end()
