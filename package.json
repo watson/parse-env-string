@@ -1,0 +1,31 @@
+{
+  "name": "parse-env-string",
+  "version": "0.0.0",
+  "description": "Parse a string containing environment variables to a key/value object",
+  "main": "index.js",
+  "dependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/parse-env-string.git"
+  },
+  "keywords": [
+    "parse",
+    "parser",
+    "env",
+    "environment",
+    "variable"
+  ],
+  "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/parse-env-string/issues"
+  },
+  "homepage": "https://github.com/watson/parse-env-string#readme"
+}
