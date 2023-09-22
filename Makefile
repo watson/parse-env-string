@@ -24,7 +24,7 @@ check-version:
 # - git tag
 # - npm publish
 .PHONY: cutarelease
-cutarelease: check
+cutarelease: check-version
 	[[ -z `git status --short` ]]  # If this fails, the working dir is dirty.
 	@which $(JSON) 2>/dev/null 1>/dev/null && \
 	    ver=$(shell $(JSON) -f package.json version) && \
