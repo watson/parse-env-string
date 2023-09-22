@@ -3,7 +3,7 @@
 Parse a string containing environment variables to a key/value object.
 
 [![npm](https://img.shields.io/npm/v/parse-env-string.svg)](https://www.npmjs.com/package/parse-env-string)
-[![build status](https://travis-ci.org/watson/parse-env-string.svg?branch=master)](https://travis-ci.org/watson/parse-env-string)
+[![Test status](https://github.com/watson/parse-env-string/workflows/Test/badge.svg)](https://github.com/watson/parse-env-string/actions)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Installation
