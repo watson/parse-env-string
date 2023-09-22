@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Parse a string containing environment variables to a key/value object",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "standard": "^14.3.4",
     "tape": "^5.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "standard && node test.js"
   },
