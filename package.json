@@ -1,6 +1,6 @@
 {
   "name": "parse-env-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a string containing environment variables to a key/value object",
   "main": "index.js",
   "dependencies": {},
@@ -11,6 +11,12 @@
   "scripts": {
     "test": "standard && node test.js"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/watson/parse-env-string.git"
@@ -27,9 +33,5 @@
   "bugs": {
     "url": "https://github.com/watson/parse-env-string/issues"
   },
-  "homepage": "https://github.com/watson/parse-env-string#readme",
-  "coordinates": [
-    56.038198,
-    12.619772
-  ]
+  "homepage": "https://github.com/watson/parse-env-string#readme"
 }
